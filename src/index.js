@@ -4,14 +4,14 @@ import './index.css';
 import App from './App';
 // import Home from './components/Home';
 import * as serviceWorker from './serviceWorker';
-// import Pomodoro from './componentsPomo/Pomodoro';
+import Pomodoro from './componentsPomo/Pomodoro';
 // import Notebook from './componentsNote/Notebook';
 // import {Router, Route, IndexRoute} from "react-router"
 // import createHistory from 'history/createBrowserHistory'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Pomodoro />
     {/* <Router history={createHistory} >
       <Route path={"App"} component={App} />
     </Router> */}
