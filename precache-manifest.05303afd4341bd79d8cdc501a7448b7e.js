@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f109c9a92e9872d1d1e3d639404957b3",
+    "revision": "c56be0506186dbc1275499d5ebb820e8",
     "url": "/Time-Palace/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Time-Palace/static/css/2.8dbe6964.chunk.css"
   },
   {
-    "revision": "7e17121c4608269c9866",
-    "url": "/Time-Palace/static/css/main.1079886d.chunk.css"
+    "revision": "6af5f5526cf823a2bf15",
+    "url": "/Time-Palace/static/css/main.44aaa5a3.chunk.css"
   },
   {
     "revision": "1b33d786a627c613adbe",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Time-Palace/static/js/2.679ca7d4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7e17121c4608269c9866",
+    "revision": "6af5f5526cf823a2bf15",
     "url": "/Time-Palace/static/js/main.7beb8d02.chunk.js"
   },
   {
