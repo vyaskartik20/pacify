@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/timePalace/static/css/main.44aaa5a3.chunk.css",
-    "main.js": "/timePalace/static/js/main.9c1dc470.chunk.js",
-    "main.js.map": "/timePalace/static/js/main.9c1dc470.chunk.js.map",
+    "main.css": "/timePalace/static/css/main.da8af3f6.chunk.css",
+    "main.js": "/timePalace/static/js/main.bfeecfb4.chunk.js",
+    "main.js.map": "/timePalace/static/js/main.bfeecfb4.chunk.js.map",
     "runtime-main.js": "/timePalace/static/js/runtime-main.476a9b8c.js",
     "runtime-main.js.map": "/timePalace/static/js/runtime-main.476a9b8c.js.map",
     "static/css/2.8dbe6964.chunk.css": "/timePalace/static/css/2.8dbe6964.chunk.css",
     "static/js/2.a868c773.chunk.js": "/timePalace/static/js/2.a868c773.chunk.js",
     "static/js/2.a868c773.chunk.js.map": "/timePalace/static/js/2.a868c773.chunk.js.map",
     "index.html": "/timePalace/index.html",
-    "precache-manifest.31ce76e07be35dcb6a6136209f42e2e7.js": "/timePalace/precache-manifest.31ce76e07be35dcb6a6136209f42e2e7.js",
+    "precache-manifest.8b06105e4756eac256c6350f01bebffa.js": "/timePalace/precache-manifest.8b06105e4756eac256c6350f01bebffa.js",
     "service-worker.js": "/timePalace/service-worker.js",
     "static/css/2.8dbe6964.chunk.css.map": "/timePalace/static/css/2.8dbe6964.chunk.css.map",
-    "static/css/main.44aaa5a3.chunk.css.map": "/timePalace/static/css/main.44aaa5a3.chunk.css.map",
+    "static/css/main.da8af3f6.chunk.css.map": "/timePalace/static/css/main.da8af3f6.chunk.css.map",
     "static/js/2.a868c773.chunk.js.LICENSE.txt": "/timePalace/static/js/2.a868c773.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.476a9b8c.js",
     "static/css/2.8dbe6964.chunk.css",
     "static/js/2.a868c773.chunk.js",
-    "static/css/main.44aaa5a3.chunk.css",
-    "static/js/main.9c1dc470.chunk.js"
+    "static/css/main.da8af3f6.chunk.css",
+    "static/js/main.bfeecfb4.chunk.js"
   ]
 }
