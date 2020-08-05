@@ -3,7 +3,7 @@ html{
 }
 
 body {
-  background-image: url("https://picsum.photos/1500");
+  /* background-image: url("https://picsum.photos/1500"); */
   background-color: #cccccc; /* Used if the image is unavailable */
   height : '100%'; /* You must set a specified height */
   width : '100%';
