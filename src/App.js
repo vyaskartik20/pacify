@@ -69,7 +69,7 @@ export default function App() {
     <Router>
       <div>
         <Switch>
-          <Route path="/Time-Palace" exact component={Home} />
+          <Route path="/" exact component={Home} />
           <Route path="/pomodoro" component={Pomodoro} />
           <Route path="/notebook" component={Notebook} />
         </Switch>
