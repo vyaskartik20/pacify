@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Time-Palace/static/css/main.44aaa5a3.chunk.css",
-    "main.js": "/Time-Palace/static/js/main.a6ae8b0e.chunk.js",
-    "main.js.map": "/Time-Palace/static/js/main.a6ae8b0e.chunk.js.map",
+    "main.js": "/Time-Palace/static/js/main.703fbb96.chunk.js",
+    "main.js.map": "/Time-Palace/static/js/main.703fbb96.chunk.js.map",
     "runtime-main.js": "/Time-Palace/static/js/runtime-main.74ca9dfc.js",
     "runtime-main.js.map": "/Time-Palace/static/js/runtime-main.74ca9dfc.js.map",
     "static/css/2.8dbe6964.chunk.css": "/Time-Palace/static/css/2.8dbe6964.chunk.css",
     "static/js/2.679ca7d4.chunk.js": "/Time-Palace/static/js/2.679ca7d4.chunk.js",
     "static/js/2.679ca7d4.chunk.js.map": "/Time-Palace/static/js/2.679ca7d4.chunk.js.map",
     "index.html": "/Time-Palace/index.html",
-    "precache-manifest.c3b4869406d3b4a9f91c2dd14ad2a2da.js": "/Time-Palace/precache-manifest.c3b4869406d3b4a9f91c2dd14ad2a2da.js",
+    "precache-manifest.c9e5cee8226e633eb277b8d91d2565a3.js": "/Time-Palace/precache-manifest.c9e5cee8226e633eb277b8d91d2565a3.js",
     "service-worker.js": "/Time-Palace/service-worker.js",
     "static/css/2.8dbe6964.chunk.css.map": "/Time-Palace/static/css/2.8dbe6964.chunk.css.map",
     "static/css/main.44aaa5a3.chunk.css.map": "/Time-Palace/static/css/main.44aaa5a3.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.8dbe6964.chunk.css",
     "static/js/2.679ca7d4.chunk.js",
     "static/css/main.44aaa5a3.chunk.css",
-    "static/js/main.a6ae8b0e.chunk.js"
+    "static/js/main.703fbb96.chunk.js"
   ]
 }
