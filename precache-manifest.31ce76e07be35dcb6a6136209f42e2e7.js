@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "787bab4a19d461e93fe85b039e604b89",
+    "revision": "eac3e3eeb8cd16b0966e019ab377e854",
     "url": "/timePalace/index.html"
   },
   {
-    "revision": "1b33d786a627c613adbe",
+    "revision": "30c269ccefc54638335e",
     "url": "/timePalace/static/css/2.8dbe6964.chunk.css"
   },
   {
-    "revision": "184bdbc5f3d10499086b",
+    "revision": "d4b667b00501a0b81648",
     "url": "/timePalace/static/css/main.44aaa5a3.chunk.css"
   },
   {
-    "revision": "1b33d786a627c613adbe",
-    "url": "/timePalace/static/js/2.679ca7d4.chunk.js"
+    "revision": "30c269ccefc54638335e",
+    "url": "/timePalace/static/js/2.a868c773.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/timePalace/static/js/2.679ca7d4.chunk.js.LICENSE.txt"
+    "url": "/timePalace/static/js/2.a868c773.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "184bdbc5f3d10499086b",
-    "url": "/timePalace/static/js/main.2adaafc9.chunk.js"
+    "revision": "d4b667b00501a0b81648",
+    "url": "/timePalace/static/js/main.9c1dc470.chunk.js"
   },
   {
     "revision": "c515ce6407cb8e7e99a1",
