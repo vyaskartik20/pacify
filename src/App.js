@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
     height: '100vh  ',
   },
   image: {
-    // backgroundImage: 'url(https://picsum.photos/1500)',
+    backgroundImage: 'url(https://picsum.photos/1500)',
     backgroundRepeat: 'no-repeat',
     backgroundColor:
       theme.palette.type === 'light' ? theme.palette.grey[50] : theme.palette.grey[900],
@@ -70,7 +70,7 @@ export default function App() {
       <div>
         <Switch>
           <Route path="/pomodoro" component={Pomodoro} />
-          <Route path="/timePalace" exact component={Home} />
+          <Route path="/timepalace" exact component={Home} />
           <Route path="/notebook" component={Notebook} />
         </Switch>
       </div>
