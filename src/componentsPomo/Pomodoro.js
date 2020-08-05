@@ -162,8 +162,8 @@ class Pomodoro extends React.Component {
 export default Pomodoro;
 
 
-const quoteshow =(quote) => (
-  <div>
-    {quote}
-  </div>
-)
+// const quoteshow =(quote) => (
+//   <div>
+//     {quote}
+//   </div>
+// )

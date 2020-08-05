@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './NoteForm.css';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 class NoteForm extends Component{
     
@@ -49,8 +49,8 @@ class NoteForm extends Component{
     }
 }
 
-NoteForm.propTypes= {
-}
+// NoteForm.propTypes= {
+// }
     
 
 export default NoteForm;
