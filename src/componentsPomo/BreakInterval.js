@@ -32,11 +32,11 @@ function BreakInterval(props) {
         <section>
             <h4>Break Length</h4>
             <section className="interval-container">
-                <button onClick={decreaseTimerHandler} >
+                <button className="button1" onClick={decreaseTimerHandler} >
                     Down
                 </button>
                     <p className="interval-length">{props.breakLength}</p>
-                <button onClick={increaseTimerHandler}>
+                <button className="button1" onClick={increaseTimerHandler}>
                     Up
                 </button>
             </section>

@@ -4,6 +4,10 @@ import BreakInterval from './BreakInterval';
 import SessionLength from './SessionLength';
 import Timer from './Timer';
 import Grid from '@material-ui/core/Grid';
+import Calendar from 'react-calendar';
+import 'react-calendar/dist/Calendar.css';
+import quotes from './Quotes'
+import Clock from 'react-live-clock';
 
 class Pomodoro extends React.Component {
   constructor() {
@@ -21,7 +25,11 @@ class Pomodoro extends React.Component {
       breakLength : 5,
       sessionLength : 25,
       timerMinute : 25,
-      isPlay: false
+      isPlay: false,
+      quote: '',
+      author: ''
+      // quote: quotes[0].quote,
+      // author: quotes[0].quote
     }
   }
 
@@ -74,15 +82,34 @@ class Pomodoro extends React.Component {
     })
   }
 
+  componentDidMount() {
+    this.getQuote()
+ }
+
+
+ getQuote() { 
+        let quoteNum = Math.floor(Math.random() * quotes.length)
+        let randomQuote = quotes[quoteNum]
+
+        this.setState({
+           quote: randomQuote.quote,
+           author: randomQuote.author,
+        })
+     
+}
+
+
+
+
 
 
   render(){
     return (
-      <main>  
+      <body1 className = "body1">  
 
-        {/* <Grid container > */}
+        <Grid container className="newbody" >
           
-          {/* <Grid item xs={12} sm={8} md={8}> */}
+          <Grid item xs={12} sm={8} md={8} className="newbody1" >
             <h2>Pomodoro Timer</h2>
             <section className="interval-length-container" >
               <BreakInterval 
@@ -106,13 +133,37 @@ class Pomodoro extends React.Component {
               toggleInterval = {this.onToggleInterval}
             /> 
             </section>
-          {/* </Grid> */}
-          {/* <Grid item xs={false} sm={4} md={4} /> */}
-        {/* </Grid> */}
-      </main>
+          </Grid>
+          
+          <Grid item xs={false} sm={4} md={4}>
+              <div className="calendar">
+                <Calendar
+                  onChange={this.onChange}
+                  value={this.state.date}
+                />
+
+
+              </div>
+
+                <div className="notequote fade-in">
+                  <Clock format={'HH:mm:ss'} ticking={true} timezone={' IND'} />
+                <hr></hr>
+                <h5 style={{textAlign: 'left', margin:'0px' , padding: '0px' }} >{this.state.quote}</h5>  
+                <h6 style={{textAlign:'right' }}> {this.state.author} </h6>
+                </div>
+          </Grid>
+        </Grid>
+      </body1>
     );
   }
 }
   
 
 export default Pomodoro;
+
+
+const quoteshow =(quote) => (
+  <div>
+    {quote}
+  </div>
+)

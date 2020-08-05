@@ -141,28 +141,30 @@ class Notebook extends Component {
 
   render() {
     return (
-      <div className="notesWrapper">
-        <div className="notesHeader">
-          <div className="heading">
-            the notebook...
+      // <body  >
+        <div className="notesWrapper">
+          <div className="notesHeader">
+            <div className="heading">
+              the notebook...
+            </div>
+          </div>
+          <div className="notesBody">
+            {
+              this.state.notes.map((note) => {
+                return (
+                  <Note noteContent={note.noteContent} 
+                  noteId={note.id} 
+                  key={note.id} 
+                  removeNote ={this.removeNote}/>
+                )
+              })
+            }
+          </div>
+          <div className="notesFooter">
+            <NoteForm addNote={this.addNote} />
           </div>
         </div>
-        <div className="notesBody">
-          {
-            this.state.notes.map((note) => {
-              return (
-                <Note noteContent={note.noteContent} 
-                noteId={note.id} 
-                key={note.id} 
-                removeNote ={this.removeNote}/>
-              )
-            })
-          }
-        </div>
-        <div className="notesFooter">
-          <NoteForm addNote={this.addNote} />
-        </div>
-      </div>
+      // </body >
     );
   }
 }

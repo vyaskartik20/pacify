@@ -100,13 +100,13 @@ class Timer extends React.Component {
                     </span> 
                 </section>
                 <section className="timer-actions">
-                    <button onClick ={this.playTimer} >
+                    <button className="button1" onClick ={this.playTimer} >
                         Play
                     </button>
-                    <button onClick={this.stopTimer} >
+                    <button className="button1" onClick={this.stopTimer} >
                         Stop
                     </button>
-                    <button onClick={this.onResetTimer} >
+                    <button className="button1" onClick={this.onResetTimer} >
                         Reset
                     </button>
                 </section>

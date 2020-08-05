@@ -5,7 +5,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import TextField from '@material-ui/core/TextField';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
-import Link from '@material-ui/core/Link';
+// import Link from '@material-ui/core/Link';
 import Paper from '@material-ui/core/Paper';
 import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
@@ -15,6 +15,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import {BrowserRouter as Router, Switch , Route} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 // https://source.unsplash.com/random
 
@@ -23,8 +24,9 @@ import Notebook from './componentsNote/Notebook';
 
 
 const useStyles = makeStyles((theme) => ({
+  
   root: {
-    height: '100vh',
+    height: '100vh  ',
   },
   image: {
     backgroundImage: 'url(https://picsum.photos/1500)',
@@ -57,17 +59,21 @@ const useStyles = makeStyles((theme) => ({
 // 82, 17, 72
 // 26, 4, 22
 
-const classes = useStyles();
+// const classes = useStyles();
 
 export default function App() {
   
   return (
+    // <Pomodoro/>
+    // <Pomodoro/>
     <Router>
-      <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/pomodoro" component={Pomodoro} />
-        <Route path="/notebook" component={Notebook} />
-      </Switch>
+      <div>
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/pomodoro" component={Pomodoro} />
+          <Route path="/notebook" component={Notebook} />
+        </Switch>
+      </div>
     </Router>
     
   );
@@ -75,11 +81,70 @@ export default function App() {
   
   
   const Home =() => (
-  <Grid container component="main" className={classes.root}>
+
+    // <Grid container component="main">
+    //   <CssBaseline />
+    //   <Grid item xs={false} sm={4} md={6} />
+    //   <Grid item xs={12} sm={8} md={6}  component={Paper} elevation={6} square>
+    //     <div >
+    //       {/* <Button
+    //         type="submit"
+    //         fullWidth
+    //         variant="contained"
+    //         color="primary"
+    //         className={classes.submit}
+    //       >
+    //         Sign In
+    //       </Button>
+    //        */}
+    //       <AppBar position="static"  style={{ background: 'inherit' }} >
+    //         <Toolbar>
+    //           <Typography variant="h3" style={{color:'rgb(26,80,22)'}} >
+    //             Pacify 
+    //           </Typography>
+    //         </Toolbar>
+    //       </AppBar>
+    //       <div style={{ marginTop:'18%', marginBottom:'6%' ,width: '40%' }} >
+    //         <Button variant="contained" size="large" style={{width: '100%',color:'red', backgroundColor:'white'}} href="Compiler">
+    //           Compiler
+    //         </Button>
+    //       </div>
+    //       <div style={{margin:'6%',width: '40%' }}>
+    //         <Button variant="contained" size="large" style={{width: '100%',color:'red', backgroundColor:'white'}} href="#contained-buttons">
+    //           Test Case Genreator
+    //         </Button>
+    //       </div>
+    //       <div style={{margin:'6%',width: '40%'}}>
+    //         <Button variant="contained" size="large" style={{width: '100%' ,color:'red', backgroundColor:'white'}}  href="#contained-buttons">
+    //           Debugger
+    //         </Button>
+    //       </div>
+    //       {/* <div></div> */}
+    //       <div style={{alignSelf:'flex-end', justifyContent:'space-between', marginTop:'6%'}}>
+    //         <h3 style={{color:'white'}}>
+    //           Developed by Kartik and Aditya 
+    //         </h3>
+    //       </div>
+    //     </div>
+    //   </Grid>
+    //   {/* <Grid item xs={false} sm={4} md={4} className={classes.image} /> */}
+    // </Grid>
+
+
+
+
+
+
+
+
+
+
+
+  <Grid container component="main" className={useStyles().root}>
       <CssBaseline />
-      <Grid item xs={false} sm={4} md={6} className={classes.image} />
-      <Grid item xs={12} sm={8} md={6} className={classes.other} component={Paper} elevation={6} square>
-        <div className={classes.paper}>
+      <Grid item xs={false} sm={4} md={6} className={useStyles().image} />
+      <Grid item xs={12} sm={8} md={6} className={useStyles().other} component={Paper} elevation={6} square>
+        <div className={useStyles().paper}>
           {/* <Button
             type="submit"
             fullWidth
@@ -93,29 +158,33 @@ export default function App() {
           <AppBar position="static"  style={{ background: 'inherit' }} >
             <Toolbar>
               <Typography variant="h3" style={{color:'rgb(26,80,22)'}} >
-                Pacify 
+                Time Palace
               </Typography>
             </Toolbar>
           </AppBar>
-          <div style={{ marginTop:'18%', marginBottom:'6%' ,width: '40%' }} >
+          {/* <div style={{ marginTop:'18%', marginBottom:'6%' ,width: '40%' }} >
             <Button variant="contained" size="large" style={{width: '100%',color:'red', backgroundColor:'white'}} href="Compiler">
               Compiler
             </Button>
+          </div> */}
+          <div style={{margin:'14%',width: '40%' }}>
+            <Link to="/pomodoro" style={{textDecoration: 'none'}} >
+              <Button variant="contained" size="large" style={{width: '100%',color:'red', backgroundColor:'white'}} >
+                Pomodoro
+              </Button>
+            </Link>
           </div>
-          <div style={{margin:'6%',width: '40%' }}>
-            <Button variant="contained" size="large" style={{width: '100%',color:'red', backgroundColor:'white'}} href="#contained-buttons">
-              Test Case Genreator
-            </Button>
-          </div>
-          <div style={{margin:'6%',width: '40%'}}>
-            <Button variant="contained" size="large" style={{width: '100%' ,color:'red', backgroundColor:'white'}}  href="#contained-buttons">
-              Debugger
-            </Button>
+          <div style={{margin:'9%',width: '40%'}}>
+            <Link to="/notebook" style={{textDecoration: 'none'}}  >
+              <Button variant="contained" size="large" style={{width: '100%' ,color:'red', backgroundColor:'white'}}  >
+                Notebook
+              </Button>
+            </Link>
           </div>
           {/* <div></div> */}
-          <div style={{alignSelf:'flex-end', justifyContent:'space-between', marginTop:'6%'}}>
+          <div style={{alignSelf:'flex-end', justifyContent: 'flex-end', marginTop:'8%', marginBottom:'0%'}}>
             <h3 style={{color:'white'}}>
-              Developed by Aditya and Kartik
+              Developed by Kartik
             </h3>
           </div>
         </div>

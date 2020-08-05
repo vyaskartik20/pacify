@@ -1,21 +1,42 @@
-main{
+.body1{
+  /* display : flex;  */
+  /* flex-direction: column; */
+  /* height : 90vh; */
+  /* justify-content: center; */
+   /* align-items: center; */
+  background-color: rgba(1, 160, 160, 0.767);
+}
+
+.newbody {
   display : flex;
   flex-direction: column;
   height : 90vh;
   justify-content: center;
   align-items: center;
+  background-color: rgba(1, 160, 160, 0.767);
+}
+
+.newbody1 {
+  display : flex;
+  flex-direction: column;
+  height : 90vh;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgba(1, 160, 160, 0.767); */
 }
 
 h2 {
   font-size : 4rem;
   font-weight: 400;
   text-align: center;
+  align-items: center;
 }
 
 .interval-container {
   display: flex;
   margin: 0 40px;
   align-items: center;
+  text-align: center;
 }
 
 h4 {
@@ -24,13 +45,16 @@ h4 {
   font-weight: 400;
   margin-top: 0;
   margin-bottom: 10px;
+
 }
 
 .interval-length-container {
   display: flex;
+  align-items: center;
+  text-align: center;
 }
 
-button {
+.button1 {
   padding : 5px 10 px;
   margin : 0 10px;
   height : 25px;
@@ -57,12 +81,15 @@ button {
   box-shadow: 0 4px 14px rgba(0,0,0,0.50);
   padding: 10px;
   /* margin-left: 30%; */
+  align-items: center;
+  text-align: center;
   
 }
 
 
 . timer-section {
   text-align: center;
+  align-items: center;
   /* display: flex; */
 }
 
@@ -79,4 +106,41 @@ button {
 .timer-actions {
   margin-top: 20px;  
   text-align: center;
+}
+
+.calendar{
+  margin:3%;
+  margin-top: 5% ;
+}
+
+
+
+
+
+.notequote {
+  padding:2px 15px 3px 15px;
+  height: auto; 
+  /* margin: auto; */
+  margin-top: 1%;
+  margin-bottom: 2px;
+  width: 90%;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.4em;
+  color: #222;
+  background-color: rgb(250, 112, 112); 
+  border-radius: 30px;
+  box-shadow: 43x 3px 2px #333;
+  opacity: 1;
+  text-align: center;
+  justify-content: center;
+}
+
+@keyframes fadeIn { from { opacity:0; } to { opacity:0.8; } }
+@keyframes fadeOut { from { opactiy:0.8; } to { opacity:0; } }
+
+.fade-in {
+    opacity:0;
+    animation:fadeIn ease-in 1;
+    animation-fill-mode:forwards;
+    animation-duration: 0.1s;
 }
