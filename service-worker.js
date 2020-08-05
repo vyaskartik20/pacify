@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Time-Palace/precache-manifest.05303afd4341bd79d8cdc501a7448b7e.js"
+  "/Time-Palace/precache-manifest.c3b4869406d3b4a9f91c2dd14ad2a2da.js"
 );
 
 self.addEventListener('message', (event) => {
