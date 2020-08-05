@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/timePalace/static/css/main.da8af3f6.chunk.css",
-    "main.js": "/timePalace/static/js/main.bfeecfb4.chunk.js",
-    "main.js.map": "/timePalace/static/js/main.bfeecfb4.chunk.js.map",
-    "runtime-main.js": "/timePalace/static/js/runtime-main.476a9b8c.js",
-    "runtime-main.js.map": "/timePalace/static/js/runtime-main.476a9b8c.js.map",
-    "static/css/2.8dbe6964.chunk.css": "/timePalace/static/css/2.8dbe6964.chunk.css",
-    "static/js/2.a868c773.chunk.js": "/timePalace/static/js/2.a868c773.chunk.js",
-    "static/js/2.a868c773.chunk.js.map": "/timePalace/static/js/2.a868c773.chunk.js.map",
-    "index.html": "/timePalace/index.html",
-    "precache-manifest.8b06105e4756eac256c6350f01bebffa.js": "/timePalace/precache-manifest.8b06105e4756eac256c6350f01bebffa.js",
-    "service-worker.js": "/timePalace/service-worker.js",
-    "static/css/2.8dbe6964.chunk.css.map": "/timePalace/static/css/2.8dbe6964.chunk.css.map",
-    "static/css/main.da8af3f6.chunk.css.map": "/timePalace/static/css/main.da8af3f6.chunk.css.map",
-    "static/js/2.a868c773.chunk.js.LICENSE.txt": "/timePalace/static/js/2.a868c773.chunk.js.LICENSE.txt"
+    "main.css": "/timepalace/static/css/main.44aaa5a3.chunk.css",
+    "main.js": "/timepalace/static/js/main.0947eb8f.chunk.js",
+    "main.js.map": "/timepalace/static/js/main.0947eb8f.chunk.js.map",
+    "runtime-main.js": "/timepalace/static/js/runtime-main.655087fe.js",
+    "runtime-main.js.map": "/timepalace/static/js/runtime-main.655087fe.js.map",
+    "static/css/2.8dbe6964.chunk.css": "/timepalace/static/css/2.8dbe6964.chunk.css",
+    "static/js/2.405e2cc7.chunk.js": "/timepalace/static/js/2.405e2cc7.chunk.js",
+    "static/js/2.405e2cc7.chunk.js.map": "/timepalace/static/js/2.405e2cc7.chunk.js.map",
+    "index.html": "/timepalace/index.html",
+    "precache-manifest.bc00d2655f51bf5d8d273ffa293642a9.js": "/timepalace/precache-manifest.bc00d2655f51bf5d8d273ffa293642a9.js",
+    "service-worker.js": "/timepalace/service-worker.js",
+    "static/css/2.8dbe6964.chunk.css.map": "/timepalace/static/css/2.8dbe6964.chunk.css.map",
+    "static/css/main.44aaa5a3.chunk.css.map": "/timepalace/static/css/main.44aaa5a3.chunk.css.map",
+    "static/js/2.405e2cc7.chunk.js.LICENSE.txt": "/timepalace/static/js/2.405e2cc7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.476a9b8c.js",
+    "static/js/runtime-main.655087fe.js",
     "static/css/2.8dbe6964.chunk.css",
-    "static/js/2.a868c773.chunk.js",
-    "static/css/main.da8af3f6.chunk.css",
-    "static/js/main.bfeecfb4.chunk.js"
+    "static/js/2.405e2cc7.chunk.js",
+    "static/css/main.44aaa5a3.chunk.css",
+    "static/js/main.0947eb8f.chunk.js"
   ]
 }
