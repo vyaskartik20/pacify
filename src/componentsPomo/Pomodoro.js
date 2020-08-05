@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './Pomodoro.css';
 import BreakInterval from './BreakInterval';
 import SessionLength from './SessionLength';
 import Timer from './Timer';

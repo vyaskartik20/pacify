@@ -14,10 +14,13 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-// import Background from './images/coding17.jpg'
-// import Compiler from './compiler'
+import {BrowserRouter as Router, Switch , Route} from 'react-router-dom';
 
 // https://source.unsplash.com/random
+
+import Pomodoro from './componentsPomo/Pomodoro';
+import Notebook from './componentsNote/Notebook';
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -54,12 +57,25 @@ const useStyles = makeStyles((theme) => ({
 // 82, 17, 72
 // 26, 4, 22
 
+const classes = useStyles();
 
-export default function SignInSide() {
-  const classes = useStyles();
-
+export default function App() {
+  
   return (
-    <Grid container component="main" className={classes.root}>
+    <Router>
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/pomodoro" component={Pomodoro} />
+        <Route path="/notebook" component={Notebook} />
+      </Switch>
+    </Router>
+    
+  );
+}
+  
+  
+  const Home =() => (
+  <Grid container component="main" className={classes.root}>
       <CssBaseline />
       <Grid item xs={false} sm={4} md={6} className={classes.image} />
       <Grid item xs={12} sm={8} md={6} className={classes.other} component={Paper} elevation={6} square>
@@ -106,5 +122,4 @@ export default function SignInSide() {
       </Grid>
       {/* <Grid item xs={false} sm={4} md={4} className={classes.image} /> */}
     </Grid>
-  );
-}
+)
