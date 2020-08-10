@@ -3,11 +3,11 @@ html{
 }
 
 body {
-  background-image: url("https://picsum.photos/1500");
-  background-color: #cccccc; /* Used if the image is unavailable */
+  /* background-image: url("https://picsum.photos/400"); */
+  /* background-color: red; Used if the image is unavailable */
   height : '100%'; /* You must set a specified height */
   width : '100%';
-  background-position: center; /* Center the image */
+  /* background-position: center; Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
  }

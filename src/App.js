@@ -21,6 +21,8 @@ import {Link} from 'react-router-dom';
 
 import Pomodoro from './componentsPomo/Pomodoro';
 import Notebook from './componentsNote/Notebook';
+import Compiler from './componentsCompiler/Compiler';
+import Background from './images/coding20.jpg'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -29,7 +31,7 @@ const useStyles = makeStyles((theme) => ({
     height: '100vh  ',
   },
   image: {
-    backgroundImage: 'url(https://picsum.photos/1500)',
+    // backgroundImage: 'url(https://picsum.photos/1400)',
     backgroundRepeat: 'no-repeat',
     backgroundColor:
       theme.palette.type === 'light' ? theme.palette.grey[50] : theme.palette.grey[900],
@@ -44,11 +46,16 @@ const useStyles = makeStyles((theme) => ({
     // backgroundColor:'black'
   },
   other: {
-    backgroundColor:'rgb(36,2,11)',
+    // backgroundColor:'rgb(36,2,11)',
     // backgroundImage: require('./coding.jpg')
     // <img src={'./coding.jpg'} />
     // color:'white'
-    // backgroundImage: `url(${Background})`
+    backgroundImage: `url(${Background})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundColor:
+      theme.palette.type === 'light' ? theme.palette.grey[50] : theme.palette.grey[900],
+      backgroundPosition: 'center',
+    backgroundSize: 'cover',
   }
 }));
 
@@ -70,8 +77,9 @@ export default function App() {
       <div>
         <Switch>
           <Route path="/pomodoro" component={Pomodoro} />
-          <Route path="/timepalace" exact component={Home} />
+          <Route path="/timepalace" component={Home} />
           <Route path="/notebook" component={Notebook} />
+          <Route path="/compiler" component={Compiler} />
         </Switch>
       </div>
     </Router>
@@ -155,10 +163,10 @@ export default function App() {
             Sign In
           </Button>
            */}
-          <AppBar position="static"  style={{ background: 'inherit' }} >
+          <AppBar position="static"  style={{ background: 'rgba(0, 0, 0,0.95)' }} >
             <Toolbar>
-              <Typography variant="h3" style={{color:'rgb(26,80,22)'}} >
-                Time Palace
+              <Typography variant="h3" style={{color:'rgb(219, 191, 191)'}} >
+                Pacify 
               </Typography>
             </Toolbar>
           </AppBar>
@@ -167,25 +175,39 @@ export default function App() {
               Compiler
             </Button>
           </div> */}
-          <div style={{margin:'14%',width: '40%' }}>
+          <div style={{ marginTop:'8%', marginBottom:'6%' ,width: '40%' }} >
+            <Link to="/compiler" style={{textDecoration: 'none'}} >
+              <Button variant="contained" size="large" style={{width: '100%',color:'rgb(219, 191, 191)', backgroundColor:'rgba(0, 0, 0,0.95)',padding: '0px'}}>
+                <h4>
+                  Compiler
+                </h4>
+              </Button>
+            </Link>  
+          </div>
+          <div style={{margin:'3%',width: '40%' }}>
             <Link to="/pomodoro" style={{textDecoration: 'none'}} >
-              <Button variant="contained" size="large" style={{width: '100%',color:'red', backgroundColor:'white'}} >
-                Pomodoro
+              <Button variant="contained" size="large" style={{width: '100%',color:'rgb(219, 191, 191)', backgroundColor:'rgba(0, 0, 0,0.95)',padding: '0px'}}>
+                <h4>
+                  Pomodoro
+                </h4>
               </Button>
             </Link>
           </div>
-          <div style={{margin:'9%',width: '40%'}}>
+          <div style={{marginTop:'3%', marginBottom:'10%', width: '40%'}}>
             <Link to="/notebook" style={{textDecoration: 'none'}}  >
-              <Button variant="contained" size="large" style={{width: '100%' ,color:'red', backgroundColor:'white'}}  >
+            <Button variant="contained" size="large" style={{width: '100%',color:'rgb(219, 191, 191)', backgroundColor:'rgba(0, 0, 0,0.95)',padding: '0px'}}>
+              <h4>
                 Notebook
-              </Button>
+              </h4>
+            </Button>
             </Link>
           </div>
+
           {/* <div></div> */}
           <div style={{alignSelf:'flex-end', justifyContent: 'flex-end', marginTop:'8%', marginBottom:'0%'}}>
-            <h3 style={{color:'white'}}>
-              Developed by Kartik
-            </h3>
+            <h4 style={{color:'white'}}>
+              By KARTIK
+            </h4>
           </div>
         </div>
       </Grid>

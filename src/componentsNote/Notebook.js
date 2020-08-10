@@ -141,7 +141,7 @@ class Notebook extends Component {
 
   render() {
     return (
-      // <body  >
+      <body  >
         <div className="notesWrapper">
           <div className="notesHeader">
             <div className="heading">
@@ -164,7 +164,7 @@ class Notebook extends Component {
             <NoteForm addNote={this.addNote} />
           </div>
         </div>
-      // </body >
+       </body >
     );
   }
 }

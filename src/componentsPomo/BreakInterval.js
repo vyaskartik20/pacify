@@ -30,7 +30,7 @@ function BreakInterval(props) {
     
     return (
         <section>
-            <h4>Break Length</h4>
+            <h4 className="sub-head" >Break Length</h4>
             <section className="interval-container">
                 <button className="button1" onClick={decreaseTimerHandler} >
                     Down
