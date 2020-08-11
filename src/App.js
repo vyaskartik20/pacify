@@ -77,7 +77,7 @@ export default function App() {
       <div>
         <Switch>
           <Route path="/pomodoro" component={Pomodoro} />
-          <Route path="/pomo" component={Home} />
+          <Route path="/timepalace" component={Home} />
           <Route path="/notebook" component={Notebook} />
           <Route path="/compiler" component={Compiler} />
         </Switch>
