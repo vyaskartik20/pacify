@@ -2,7 +2,7 @@
 
 .main-compiler-body {
     margin-left: 15%;
-    margin-bottom: 3%;
+    margin-bottom: 1%;
     
     /* padding: 50px; */
     /* background-color: black; */
@@ -21,6 +21,7 @@
         flex: 1 1 auto;
         flex-direction: column;
         height: 100%;
+        background-color: rgb(255, 255, 255);
 }
 
 .compiler-head {
@@ -30,26 +31,27 @@
         /* min-height: 2.5em; */
         /* max-height: 2em; */
         font-size: 2.2em;
-        color: #F4B350;
+        color: #141311;
         font-family: 'Permanent Marker', cursive;
         text-align: center;
         align-content: center;
         padding:20px 0px 20px 0px;
         margin-bottom: 6%;
-        background-color: rgba(0,0,0,0.5);
-        text-shadow: 3px 3px 10px #000;
+        background-color: rgba(0, 0, 0, 0.144);
+        text-shadow: 3px 3px 3px #000;
         display: block;
         font-style: italic;  
 }
 
 .form-body{
-
+    direction: flex;
     margin-left: 18%;
 }
 
 .gap1{
     justify-content: center;
-    margin-left: 30%;
+    margin-left: 10%;
+    margin-right: 20%;
     width: 40%;
 }
 
@@ -70,7 +72,7 @@
     border-width:2px; */
     margin-left: 17%;
     margin-right: 25%;
-    margin-bottom: 8%;
+    margin-bottom: 3%;
 }
 
 h3{
@@ -82,6 +84,7 @@ h3{
     border-style:solid;
     border-width:2px;
     white-space: nowrap;
+    padding:5px;
     /* margin-left: 17%;
     margin-right: 25%;
     margin-bottom: 8%; */
