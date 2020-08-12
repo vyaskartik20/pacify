@@ -108,8 +108,8 @@ class Pomodoro extends React.Component {
       <body1 className = "body1">  
 
         <Grid container className="newbody" >
-          
-          <Grid item xs={12} sm={8} md={8} className="newbody1" >
+        <Grid item xs={false} sm={1} md={1}></Grid>
+          <Grid item xs={12} sm={6} md={6} className="newbody1" >
             <h2>Pomodoro Timer</h2>
             <section className="interval-length-container" >
               <BreakInterval 
@@ -134,8 +134,8 @@ class Pomodoro extends React.Component {
             /> 
             </section>
           </Grid>
-          
-          <Grid item xs={false} sm={4} md={4}>
+          <Grid item xs={false} sm={1} md={1}></Grid>
+          <Grid item xs={false} sm={4} md={3}>
               <div className="calendar">
                 <Calendar
                   onChange={this.onChange}
@@ -152,6 +152,7 @@ class Pomodoro extends React.Component {
                 <h6 style={{textAlign:'right' }}> {this.state.author} </h6>
                 </div>
           </Grid>
+          <Grid item xs={false} sm={1} md={1}></Grid>
         </Grid>
       </body1>
     );
