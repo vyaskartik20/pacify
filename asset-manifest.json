@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/timepalace/static/css/main.32be3857.chunk.css",
-    "main.js": "/timepalace/static/js/main.bbdd45ac.chunk.js",
-    "main.js.map": "/timepalace/static/js/main.bbdd45ac.chunk.js.map",
-    "runtime-main.js": "/timepalace/static/js/runtime-main.655087fe.js",
-    "runtime-main.js.map": "/timepalace/static/js/runtime-main.655087fe.js.map",
-    "static/css/2.8dbe6964.chunk.css": "/timepalace/static/css/2.8dbe6964.chunk.css",
-    "static/js/2.cd3bbe6c.chunk.js": "/timepalace/static/js/2.cd3bbe6c.chunk.js",
-    "static/js/2.cd3bbe6c.chunk.js.map": "/timepalace/static/js/2.cd3bbe6c.chunk.js.map",
-    "index.html": "/timepalace/index.html",
-    "precache-manifest.bd2630dddd819e28ea6c40a16e853072.js": "/timepalace/precache-manifest.bd2630dddd819e28ea6c40a16e853072.js",
-    "service-worker.js": "/timepalace/service-worker.js",
-    "static/css/2.8dbe6964.chunk.css.map": "/timepalace/static/css/2.8dbe6964.chunk.css.map",
-    "static/css/main.32be3857.chunk.css.map": "/timepalace/static/css/main.32be3857.chunk.css.map",
-    "static/js/2.cd3bbe6c.chunk.js.LICENSE.txt": "/timepalace/static/js/2.cd3bbe6c.chunk.js.LICENSE.txt",
-    "static/media/coding20.jpg": "/timepalace/static/media/coding20.5afb17ba.jpg"
+    "main.css": "/pacify/static/css/main.32be3857.chunk.css",
+    "main.js": "/pacify/static/js/main.5cf74303.chunk.js",
+    "main.js.map": "/pacify/static/js/main.5cf74303.chunk.js.map",
+    "runtime-main.js": "/pacify/static/js/runtime-main.399ecfbd.js",
+    "runtime-main.js.map": "/pacify/static/js/runtime-main.399ecfbd.js.map",
+    "static/css/2.8dbe6964.chunk.css": "/pacify/static/css/2.8dbe6964.chunk.css",
+    "static/js/2.cd3bbe6c.chunk.js": "/pacify/static/js/2.cd3bbe6c.chunk.js",
+    "static/js/2.cd3bbe6c.chunk.js.map": "/pacify/static/js/2.cd3bbe6c.chunk.js.map",
+    "index.html": "/pacify/index.html",
+    "precache-manifest.6f79be4faeaa9c2be31153c12bfd8a53.js": "/pacify/precache-manifest.6f79be4faeaa9c2be31153c12bfd8a53.js",
+    "service-worker.js": "/pacify/service-worker.js",
+    "static/css/2.8dbe6964.chunk.css.map": "/pacify/static/css/2.8dbe6964.chunk.css.map",
+    "static/css/main.32be3857.chunk.css.map": "/pacify/static/css/main.32be3857.chunk.css.map",
+    "static/js/2.cd3bbe6c.chunk.js.LICENSE.txt": "/pacify/static/js/2.cd3bbe6c.chunk.js.LICENSE.txt",
+    "static/media/coding20.jpg": "/pacify/static/media/coding20.5afb17ba.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.655087fe.js",
+    "static/js/runtime-main.399ecfbd.js",
     "static/css/2.8dbe6964.chunk.css",
     "static/js/2.cd3bbe6c.chunk.js",
     "static/css/main.32be3857.chunk.css",
-    "static/js/main.bbdd45ac.chunk.js"
+    "static/js/main.5cf74303.chunk.js"
   ]
 }
